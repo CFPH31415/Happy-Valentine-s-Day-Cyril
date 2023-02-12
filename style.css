@@ -53,19 +53,9 @@ main h1 {
     font-weight: 700;
     text-transform: capitalize;
     color: red;
-}
- h2 {
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    width: 100%;
-    font-size: 4rem;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: lightblue;
 
 }
+
 
 main .countdown {
     display: flex;
@@ -80,7 +70,7 @@ main .countdown>* {
 
 main .countdown .count {
     display: block;
-    width: 200px;
+    width: 150px;
     height: 145px;
     color: black;
     background: blue;
@@ -106,7 +96,7 @@ main .countdown .count::before {
     content: '';
     width: 15px;
     height: 15px;
-    background: var(--very-dark-black-blue);
+    background: blue;
     border-radius: 50%;
 }
 
@@ -118,15 +108,15 @@ main .countdown .count::after {
     content: '';
     width: 15px;
     height: 15px;
-    background: var(--very-dark-black-blue);
+    background: blue;
     border-radius: 50%;
 }
 
 main .countdown .count-txt {
     margin-top: 1em;
     color: lightblue;
-    font-size: 2.5em;
-    letter-spacing: 10px;
+    font-size: 2.8em;
+    letter-spacing: 2px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -151,8 +141,8 @@ main .countdown .count-txt {
         display: block;
         width: 100px;
         height: 90px;
-        color: var(--soft-red);
-        background: var(--dark-desaturated-blue);
+        color: black;
+        background: blue;
         border-radius: 10px;
         font-size: 4em;
         display: flex;
@@ -169,7 +159,7 @@ main .countdown .count-txt {
         content: '';
         width: 15px;
         height: 15px;
-        background: var(--very-dark-black-blue);
+        background: blue;
         border-radius: 50%;
     }
     main .countdown .count::after {
@@ -180,12 +170,12 @@ main .countdown .count-txt {
         content: '';
         width: 15px;
         height: 15px;
-        background: var(--very-dark-black-blue);
+        background: blue;
         border-radius: 50%;
     }
     main .countdown .count-txt {
         margin-top: 1.5em;
-        color: var(--grayish-blue);
+        color: lightblue;
         letter-spacing: 2px;
         text-align: center;
     }
@@ -212,13 +202,12 @@ main .countdown .count-txt {
         width: 80px;
         height: 60px;
         color: var(--soft-red);
-        background: var(--dark-desaturated-blue);
+        background: blue;
         border-radius: 5px;
         font-size: 4em;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 10px 0 var(--very-dark-black-blue), 0 30px 0 rgba(0, 0, 0, 0.2) inset;
         position: relative;
         overflow-x: hidden;
     }
@@ -230,7 +219,7 @@ main .countdown .count-txt {
         content: '';
         width: 10px;
         height: 10px;
-        background: var(--very-dark-black-blue);
+        background: blue;
         border-radius: 50%;
     }
     main .countdown .count::after {
@@ -241,7 +230,7 @@ main .countdown .count-txt {
         content: '';
         width: 10px;
         height: 10px;
-        background: var(--very-dark-black-blue);
+        background: blue;
         border-radius: 50%;
     }
     main .countdown .count-txt {
