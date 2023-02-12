@@ -5,7 +5,7 @@ const secs=document.getElementById('sec')
 
 const func=()=>{
 
-    const today=Date.now("Feburary 14, 2023 00:00:00")
+    const today=Date.now("Feburary 11, 2023 00:00:00")
     
     const newdate=new Date("October 29, 2022 00:00:00")
     
